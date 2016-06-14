@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{e0aaa91d-e604-4a37-86e9-bcbb06fe5bbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Acceptor.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Crypt.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Database.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Dump.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Initialization.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Lock.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Log.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\MemoryLeak.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Overlapped.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\PacketQueue.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Path.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Ping.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Proactor.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Protocol.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Reactor.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Registry.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Schema.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Server.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Session.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Singleton.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Socket.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\Thread.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library\WSALoader.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Acceptor.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Crypt.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Database.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Dispatcher.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Dump.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Initialization.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Lock.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Log.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\MemoryLeak.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\MemoryPool.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Overlapped.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Packet.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\PacketQueue.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Path.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Ping.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Proactor.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Protocol.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Reactor.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Registry.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Schema.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Serialization.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Server.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Session.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Singleton.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Socket.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Thread.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\Uncopyable.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library\WSALoader.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

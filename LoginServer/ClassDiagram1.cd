@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Monitor" Collapsed="true">
+    <Position X="4.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAQACAAAAAAAAAAAAAIAAAAAAAAAo=</HashCode>
+      <FileName>LoginServer.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginDb" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoginServer.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginServer" Collapsed="true">
+    <Position X="7.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAgAAAAAAAAAAAAAAAAoAAAAAAEAAABAAEgAABAAA=</HashCode>
+      <FileName>LoginServer.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acceptor" Collapsed="true">
+    <Position X="7.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAADAACAAhAACAAAABAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Acceptor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crypt" Collapsed="true">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Crypt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Variant" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIAAAAAAAAAAIAQAEAICAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Records" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pEAEAACAAIhAAAgAEACAIQCEAAAIAQoKICkEAAQAABA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACEAAIAAAAAAAABBAAAAAAAAAACAAQACAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dispatcher&lt;Event, Peer, Result&gt;" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Dispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dump" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAIAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Dump.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Initialization" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgIAAAAACAABAAAAAABABAAEAIAgAAAAAAACAEAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Initialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriticalSection" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lock" Collapsed="true">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unlockable&lt;T&gt;" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIIAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StaticLockable&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lockable&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAQAAEAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assert&lt;true&gt;" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQDBCAFAAEIKQAAAAgAAMABAAggCAAEEBA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryLeak" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAgECAEAAAAAAAAAAECAAgAAAAIAAAAAAAQAAAEAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\MemoryLeak.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryPool&lt;T, N&gt;" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgAAADAACAAAAAAAEAGAAgAAAAAAAABAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\MemoryPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryPoolObject&lt;T, N&gt;" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\MemoryPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Overlapped" Collapsed="true">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAQIAAACAAAAACABAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accept" Collapsed="true">
+    <Position X="17" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAAEAAAAAQIAQAAAAAAAAgAAAAAAACAAgAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Receipt" Collapsed="true">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAAQIARACAAAAAAAAAAAAgACAAAAAAAAQ=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transmit" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAAQKAAAAAAAAAAAAAAAAIAAAAhAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connect" Collapsed="true">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAEAAAQIAQAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Disconnect" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAQIASABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Link" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAEAAAAAAoAQABAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Overlapped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQCAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Packet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketQueue" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAQAAAAAAAAAAQAACCAAAAAAAQmgAABCAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\PacketQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Path" Collapsed="true">
+    <Position X="34.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Path.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ping" Collapsed="true">
+    <Position X="9" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAEQEAAAAAAAAAAAAAAIAAAAAAAAAo=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Ping.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proactor" Collapsed="true">
+    <Position X="11.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEABAAAAAAAAAAAAAAAAFAAACAAAAAICAAAo=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Proactor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reactor" Collapsed="true">
+    <Position X="6.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAEAAAQAQABBGCAAYABAAAkAEAAAAAAgACBBAI=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Reactor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registry" Collapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAAABQICYAAAQABQAQCAAAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Registry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractArchive" Collapsed="true">
+    <Position X="15.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAUgAAAAAAgAAACACAAAAgAAAAAAAARAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Serialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchiveBuffer&lt;N&gt;" Collapsed="true">
+    <Position X="18.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Serialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Archive&lt;N&gt;" Collapsed="true">
+    <Position X="15.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAKgAIAAgAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Serialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Archive&lt;0&gt;" Collapsed="true">
+    <Position X="15.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAgAAAAAAAAAAAAAACgAgAAgAAAAAAAgAAACAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Serialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serialization&lt;N&gt;" Collapsed="true">
+    <Position X="15.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAgAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Serialization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPort" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAAAAEAAAIAgABgABAQAgAgQAAAAAAAAAgAGAAgA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\SerialPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server" Collapsed="true">
+    <Position X="7.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQYoCAAAAAAAQBAAABCAIAAAAAAAAAAICEAAgABBAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Session" Collapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAACQAQAAQEDAAAQABAAAAAAQAAAAAAKAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T, PRIORITY, SingletonLock&gt;" Collapsed="true">
+    <Position X="18" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAACAAAAAAABAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Socket" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAgAAEAAAAIEIgAEAAAYAABAAAAQAQAAAAAACAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Socket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thread&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAASAAAAgAAAEBAAAABAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadContext" Collapsed="true">
+    <Position X="34.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uncopyable" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAEAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Uncopyable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abstract" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Uncopyable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WSALoader" Collapsed="true">
+    <Position X="10.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\WSALoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Private::Priority" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Singleton.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PACKET_C_HELLO_WORLD_REQ" Collapsed="true">
+    <Position X="34.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQCAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_HELLO_WORLD_ACK" Collapsed="true">
+    <Position X="33" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAIAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_PING" Collapsed="true">
+    <Position X="33" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_S_CRYPT" Collapsed="true">
+    <Position X="34.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAACAAAAAACAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_LOGIN_REQ" Collapsed="true">
+    <Position X="31.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAABAAAAAACAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_LOGIN_ACK" Collapsed="true">
+    <Position X="29.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Channel" Collapsed="true">
+    <Position X="27.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAACAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_S_REGISTER_CHANNEL" Collapsed="true">
+    <Position X="27.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_CHANNEL_LIST_REQ" Collapsed="true">
+    <Position X="31.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_CHANNEL_LIST_ACK" Collapsed="true">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_C_JOIN_CHANNEL_REQ" Collapsed="true">
+    <Position X="27.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="ServerDispatcher" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Dispatcher.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClientDispatcher" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Dispatcher.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TheLog" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Log.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Private::AtExit" Collapsed="true">
+    <Position X="27.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Port" Collapsed="true">
+    <Position X="29.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Protocol" Collapsed="true">
+    <Position X="31.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACIAAgAAAAAgAAEAAAAACAAgIACCEAAABAgA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\Protocol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_00f6_1" Collapsed="true">
+    <Position X="27.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\SerialPort.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SerialPortMessageEnum" Collapsed="true">
+    <Position X="33" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAIAEAAAAAAAAAAACAgAA=</HashCode>
+      <FileName>c:\Users\illlust\Desktop\Game\library\SerialPort.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Gulim" Size="9" />
+</ClassDiagram>
